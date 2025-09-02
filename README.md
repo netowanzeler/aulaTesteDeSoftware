@@ -9,8 +9,6 @@ Documentação completa do projeto de testes de software implementando testes fu
 2. 🔗 Testes de Integração (Integration Testing)  
 3. 🚀 Testes de Carga (Load Testing)  
 4. 🔥 Testes de Estresse (Stress Testing)  
-5. 📋 Testes Funcionais  
-6. ⚡ Testes de Performance  
 
 ---
 
@@ -54,6 +52,14 @@ php --version      # PHP 8.4+
 composer --version # Composer 2.0+
 ab -V             # Apache Bench
 ```
+# instalação do Laragon
+
+*O Laragon é um ambiente de desenvolvimento local gratuito e portátil para Windows, que inclui as ferramentas essenciais como Apache, MySQL, PHP e outras, simplificando a criação e gestão de aplicações web. Ele se destaca por ser rápido, leve, fácil de instalar e configurar, oferecendo recursos integrados como Node.js, Git, Composer e uma gestão automatizada de Virtualhosts.*
+
+|FERRAMENTA     | LINK PARA DOWNLOAD|
+|---------------|-------------------|
+|LARAGON        |(https://github.com/leokhoa/laragon/releases/tag/6.0.0)|
+
 
 1. Clone e Instalação
 
@@ -63,6 +69,7 @@ cd aulaTesteDeSoftware
 ```
 
 # Instalar dependências
+
 composer require --dev phpunit/phpunit
 
 
